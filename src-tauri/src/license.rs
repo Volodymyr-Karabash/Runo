@@ -7,7 +7,6 @@ use std::io::{Read, Write};
 use std::path::PathBuf;
 use std::time::{SystemTime, UNIX_EPOCH};
 use dirs_next::data_dir;
-use license::initialize_trial_file;
 
 type HmacSha256 = Hmac<Sha256>;
 
